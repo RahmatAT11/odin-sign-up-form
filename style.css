@@ -2,6 +2,25 @@
     font-family: "Norse-Bold";
     src: url(fonts/Norse-Bold.otf);
 }
+
+.noto-sans-normal {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.noto-sans-bold {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
 body {
     display: flex;
     height: 100vh;
@@ -45,4 +64,20 @@ aside > p {
     color: white;
     font-size: 5rem;
     font-family: "Norse-Bold";
+}
+
+/* Text above forms */
+.description,
+fieldset {
+    padding-left: 32px;
+    padding-right: 128px;
+}
+
+.description {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.description > h2 + h2 {
+    margin-top: 24px;
 }
