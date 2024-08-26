@@ -162,3 +162,24 @@ ul li input:invalid {
     border: 1px solid red;
     box-shadow: 0px 5px 5px gainsboro;
 }
+
+/* last part of forms */
+.create {
+    border: none;
+}
+
+button {
+    background-color: #596D48;
+    margin-bottom: 32px;
+    padding: 8px 32px;
+    color: white;
+    border-radius: 5px;
+    border-color: none;
+}
+
+button.noto-sans-bold + p > a,
+button.noto-sans-bold + p > a:active,
+button.noto-sans-bold + p > a:hover {
+    text-decoration: none;
+    color: #596D48;
+}
