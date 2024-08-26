@@ -32,16 +32,16 @@
                 <h2 class="noto-sans-bold">Let's do this!</h2>
                 <ul class="noto-sans-normal">
                     <li>
-                        <label for="first_name">First Name</label>
-                        <input type="text" name="first_name" id="first_name">
+                        <label for="first_name" pattern="/[A-z]/g">First Name</label>
+                        <input type="text" name="first_name" id="first_name" required>
                     </li>
                     <li>
-                        <label for="last_name">Last Name</label>
-                        <input type="text" name="last_name" id="last_name">
+                        <label for="last_name" pattern="/[A-z]/g">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" required>
                     </li>
                     <li>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </li>
                     <li>
                         <label for="phone_number">Phone Number</label>
@@ -49,11 +49,11 @@
                     </li>
                     <li>
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </li>
                     <li>
                         <label for="confirm_password">Confirm Password</label>
-                        <input type="password" name="confirm_password" id="confirm_password">
+                        <input type="password" name="confirm_password" id="confirm_password" required>
                     </li>
                 </ul>
             </fieldset>
